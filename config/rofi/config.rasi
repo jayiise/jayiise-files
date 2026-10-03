@@ -1,0 +1,49 @@
+configuration {
+    font: "MapleMonoNLNF 16";
+    show-icons: true;
+}
+
+window {
+    background-color: #1e1e2ebf;
+    transparency: "real";
+    border: none;
+}
+
+element {
+    padding: 3px ;
+    cursor:  pointer;
+    spacing: 10px ;
+    border:  0;
+}
+
+element normal.normal {
+    background-color: transparent;
+}
+element selected.normal {
+    background-color: #45475a;
+}
+element alternate.normal {
+    background-color: transparent;
+}
+element-text {
+    background-color: transparent;
+    text-color: #cdd6f4;
+}
+scrollbar {
+    width:        4px ;
+    padding:      0;
+    handle-width: 8px ;
+    border:       0;
+    handle-color: #45475a;
+}
+entry {
+    text-color:        #cdd6f4;
+    cursor:            text;
+    spacing:           0;
+    placeholder-color: #a6adc8;
+    placeholder:       "Type to filter";
+}
+prompt {
+    spacing:    0;
+    text-color: #cdd6f4;
+}

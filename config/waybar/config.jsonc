@@ -1,0 +1,44 @@
+{
+    // Bar
+    "layer": "bottom",
+    "position": "top",
+    "height": 25,
+    "spacing": 20,
+
+    "modules-left": [
+        "asd"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "backlight",
+        "cpu",
+        "memory"
+    ],
+
+    // Modules
+    "clock": {
+        "format": " {:%I:%M %p}",
+    },
+
+    "backlight": {
+        "format": "󰃠 {percent}%"
+    },
+
+    "pulseaudio": {
+        "format": "󰕾 {volume}%",
+        "format-muted": "󰖁 {volume}%"
+    },
+
+    "cpu": {
+        "interval": 1,
+        "format": " {usage}%"
+    },
+
+    "memory": {
+        "interval": 1,
+        "format": " {used:.2f}/{total:.2f}"
+    }
+}
