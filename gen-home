@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-OLD_WD="$PWD"
-
-cd "$HOME/projects/jayiise-files/"
-
-python3 gen-home.py
-
-cd "$OLD_WD"

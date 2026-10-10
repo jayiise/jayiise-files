@@ -163,6 +163,7 @@ binds {
 
   Mod+Tab { spawn "alacritty"; }
   Mod+Space { spawn "rofi" "-show" "drun"; }
+  Mod+W { spawn "~/.jaythings/toggle-waybar.sh"; }
 
   Mod+O repeat=false { toggle-overview; }
 
