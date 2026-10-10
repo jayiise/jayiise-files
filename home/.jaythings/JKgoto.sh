@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+OLD_WD="$PWD"
+TODAYS_EDITOR="$1"
+PROJECT_DIRECTORY="$2"
+
+if [[ -d "$PROJECT_DIRECTORY" ]]; then
+  cd "$PROJECT_DIRECTORY"
+fi
+"$TODAYS_EDITOR" "$PROJECT_DIRECTORY"
+
+cd "$OLD_WD"

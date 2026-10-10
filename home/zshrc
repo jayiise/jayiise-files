@@ -7,19 +7,23 @@ TE="$TODAYS_EDITOR"
 
 
 # Aliases
-# Joy Konfig
 alias JKz='JKgoto.sh $TE ~/.zshrc'
+alias JKb='JKgoto.sh $TE ~/.bashrc'
 alias JKn='JKgoto.sh $TE ~/.config/niri/config.kdl'
 alias JKa='JKgoto.sh $TE ~/.config/alacritty'
 alias JKnv='JKgoto.sh $TE ~/.config/nvim'
 alias JKt='JKgoto.sh $TE ~/.tmux.conf'
 alias JKw='JKgoto.sh $TE ~/.config/waybar'
 
-# System
+alias JSs='source ~/.zshrc'
+alias JSt='tmux source-file ~/.tmux.conf'
+
 alias SYSR='sudo reboot'
 alias SYSO='sudo poweroff'
 
-# Listings
+alias py='~/.python/bin/python3 "$@"'
+alias JSp="source ~/.python/bin/activate"
+
 alias ls='eza --color=always --icons=always --group-directories-first -h'
 alias ll='eza --color=always --icons=always --group-directories-first -lh'
 alias sl='eza --color=always --icons=always --group-directories-first -A'
@@ -27,9 +31,7 @@ alias ss='eza --color=always --icons=always --group-directories-first -lAh'
 alias tree='eza --tree --color=always --icons=always -h'
 alias eert='eza --tree --color=always --icons=always -A'
 
-# Random
-alias shy='source ~/.zshrc'
-alias feskfetch='clear && fastfetch && read something'
+alias fetchy='clear && fastfetch && read something'
 
 
 
