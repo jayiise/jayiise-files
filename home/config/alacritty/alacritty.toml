@@ -1,0 +1,14 @@
+[general]
+import = ["theme.toml"]
+
+[font]
+normal = { family="MapleMonoNLNF", style="Regular" }
+bold = { family="MapleMonoNLNF", style="Bold" }
+italic = { family="MapleMonoNLNF", style="Italic" }
+bold_italic = { family="MapleMonoNLNF", style="Bold Italic" }
+size = 13
+
+[cursor]
+style = { shape="Beam", blinking="Always" }
+blink_interval = 500
+blink_timeout = 0
